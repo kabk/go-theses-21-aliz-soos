@@ -1,0 +1,142 @@
+
+
+body {
+  /* background-size: cover; */
+  background-color: white;
+   /* height: 100vh;
+   background:linear-gradient(to bottom, white , rgb(136, 152, 255)); */
+  /*-webkit-animation: AnimationName 25s ease infinite;*/
+}
+
+
+.abstract h1 {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-size: 50pt;
+    line-height: 52pt;
+    text-align: center;
+}
+
+.abstract h3 {
+    font-family: 'Cochin';
+    font-size: 22pt;
+    line-height: 25pt;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.abstract h2 {
+    font-family: 'Cochin';
+    font-style: bold;
+    font-size: 45pt;
+    line-height: 52pt;
+    text-align: center;
+}
+
+.abstract h4 {
+    font-family: 'Cochin';
+    font-style: bold;
+    font-size: 30pt;
+    line-height: 52pt;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 800px)
+.frame.frame-t {
+    height: 2vw;
+}
+.frame.frame-t {
+    top: 0;
+    width: 100%;
+    height: 4vw;
+    background-image: linear-gradient(green, #B5E268, white);
+}
+.frame {
+    position: fixed;
+    z-index: 10000;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+}
+.abstract p {
+    font-family: 'Hadriano';
+    font-size: 20pt;
+    line-height: 23pt;
+    text-align: left;
+    width: 66%;
+    margin-left: 16.5%;
+}
+
+@media screen and (min-width: 800px)
+.frame.frame-r {
+    width: 2vw;
+}
+.frame.frame-r {
+    top: 0;
+    right: 0;
+    width: 4vw;
+    height: 100vh;
+    background-image: linear-gradient(-90deg, green, #B5E268, white);
+}
+
+.frame {
+    position: fixed;
+    z-index: 10000;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+}
+
+@media screen and (min-width: 800px)
+.frame.frame-b {
+    height: 2vw;
+}
+.frame.frame-b {
+    bottom: 0;
+    width: 100%;
+    height: 4vw;
+    background-image: linear-gradient(180deg, white, #B5E268, green);
+}
+.frame {
+    position: fixed;
+    z-index: 10000;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+}
+@media screen and (min-width: 800px)
+.frame.frame-l {
+    width: 2vw;
+}
+.frame.frame-l {
+    top: 0;
+    left: 0;
+    width: 4vw;
+    height: 100vh;
+    background-image: linear-gradient(-90deg, white, #B5E268, green);
+}
+.frame {
+    position: fixed;
+    z-index: 10000;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+}
+        
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .abstract h3 {
+        font-family: 'Cochin';
+    font-size: 20pt;
+    line-height: 23pt;
+    text-align: left;
+    width: 95%;
+    margin-left: 2.5%;  
+      }
+      
+      
+}

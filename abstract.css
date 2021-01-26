@@ -8,12 +8,14 @@ body {
   /*-webkit-animation: AnimationName 25s ease infinite;*/
 }
 
+ 
+
 
 .abstract h1 {
     font-family: 'Libre Baskerville';
     font-style: italic;
     font-size: 50pt;
-    line-height: 52pt;
+    line-height: 56pt;
     text-align: center;
 }
 
@@ -129,14 +131,19 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .abstract h3 {
-        font-family: 'Cochin';
-    font-size: 20pt;
-    line-height: 23pt;
+      .abstract p {
+    
     text-align: left;
     width: 95%;
     margin-left: 2.5%;  
       }
-      
-      
+      .rounded-corners-gradient-borders {
+  width: 300px;
+  height: 80px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
 }

@@ -7,7 +7,13 @@ body {
    background:linear-gradient(to bottom, white , rgb(136, 152, 255)); */
   /*-webkit-animation: AnimationName 25s ease infinite;*/
 }
-
+body {
+  /* background-size: cover; */
+  background-color: white;
+   /* height: 100vh;
+   background:linear-gradient(to bottom, white , rgb(136, 152, 255)); */
+  /*-webkit-animation: AnimationName 25s ease infinite;*/
+}
 @font-face{
     font-family: 'Cochin';
         src: url(font/'Cochin.ttf)
@@ -159,6 +165,20 @@ body {
     mix-blend-mode: multiply;
     pointer-events: none;
     transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+}
+
+#circle{
+mix-blend-mode: exclusion;
+filter: blur(20px);
+     height:150px;
+     width:150px;
+     border-radius: 200px;
+     background:white;
+     position: absolute;
+     top: 81%;
+     left: 33%;
+     z-index: 30;
+     transform: translate(-50%,-50%);
 }
         
 @media only screen 

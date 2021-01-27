@@ -1,4 +1,5 @@
 
+
 $(document).on("click",function(){
     $(".female").throwable({
         containment: "window",
@@ -11,6 +12,11 @@ $(document).on("click",function(){
     });
 });
 
+$(document).on("mousemove",function(e){
+  $("#circle").css("left",e.pageX);
+  $("#circle").css("top",e.pageY);
+
+});
 $(".tog1").hover(function(){
   $('img',this).toggle();
 });

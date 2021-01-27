@@ -8,8 +8,36 @@ body {
   /*-webkit-animation: AnimationName 25s ease infinite;*/
 }
 
- 
-
+@font-face{
+    font-family: 'Cochin';
+        src: url(font/'Cochin.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family: 'Cochin LT';
+        src: url(font/'Cochin_LT_Italic.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family: 'Cochin';
+        src: url(font/'Cochin_LT_Bold.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family: 'LibreBaskerville';
+        src: url(font/'LibreBarskerville-Bold.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family: 'LibreBaskerville';
+        src: url(font/'LibreBarskerville-Italic.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family: 'LibreBaskerville';
+        src: url(font/'LibreBarskerville-Regular.ttf)
+        format('truetype');
+}
 
 .abstract h1 {
     font-family: 'Libre Baskerville';
@@ -27,10 +55,9 @@ body {
     font-weight: normal;
 }
 
-
 .abstract h2 {
     font-family: 'Cochin';
-    font-style: bold;
+    font-style: Bold;
     font-size: 45pt;
     line-height: 52pt;
     text-align: center;
@@ -38,12 +65,19 @@ body {
 
 .abstract h4 {
     font-family: 'Cochin';
-    font-style: bold;
+    font-style: Bold;
     font-size: 30pt;
     line-height: 52pt;
     text-align: center;
 }
 
+.abstract h5 {
+    font-family: 'Cochin LT';
+    font-style: Italic;
+    font-size: 20pt;
+    line-height: 52pt;
+    text-align: center;
+}
 
 @media screen and (min-width: 800px)
 .frame.frame-t {
@@ -63,7 +97,7 @@ body {
     transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
 }
 .abstract p {
-    font-family: 'Hadriano';
+    font-family: 'Cochin';
     font-size: 20pt;
     line-height: 23pt;
     text-align: left;
@@ -131,7 +165,7 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .abstract p {
+  .abstract p {
     
     text-align: left;
     width: 95%;

@@ -103,6 +103,7 @@ body {
     font-size: 30pt;
     line-height: 36pt;
     text-align: center;
+    width: 100%;
 }
 
 .abstract h3 {
@@ -112,7 +113,6 @@ body {
     text-align: center;
     font-weight: normal;
     width: 100%;
-
 }
 
 .abstract h2 {
